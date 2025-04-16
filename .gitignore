@@ -1,0 +1,77 @@
+# Compiled class file
+./api/*.class
+
+# Log file
+./api/*.log
+
+# BlueJ files
+./api/*.ctxt
+
+# Mobile Tools for Java (J2ME)
+./api/.mtj.tmp/
+
+# Package Files #
+./api/*.jar
+./api/*.war
+./api/*.nar
+./api/*.ear
+./api/*.zip
+./api/*.tar.gz
+./api/*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+./ui/hs_err_pid*
+./ui/replay_pid*
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+./ui/node_modules
+./ui/.pnp
+./ui/.pnp.js
+
+# testing
+./ui//coverage
+
+# next.js
+./ui/.next/
+./ui/out/
+
+# production
+./ui//build
+
+# misc
+./ui/.DS_Store
+./ui/*.pem
+
+# debug
+./ui/npm-debug.log*
+./ui/yarn-debug.log*
+./ui/yarn-error.log*
+
+# local env files
+./ui/.env.local
+./ui/.env.development.local
+./ui/.env.test.local
+./ui/.env.production.local
+
+# vercel
+.vercel
+
+# typescript
+./ui/./ui/*.tsbuildinfo
+
+#idea
+./ui/.idea
+
+# jest test result report
+./ui/junit.xml
+
+# ignore npm lock file
+./ui/package-lock.json
+
+# ignore hook init script
+./ui/.husky/.hook_init
+.gitignore
+.DS_Store
+ui/node_modules
+ui/.next
