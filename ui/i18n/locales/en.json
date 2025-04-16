@@ -1,0 +1,81 @@
+{
+  "common": {
+    "changeLanguage": "Change language",
+    "labelExample": "text example",
+    "labelExampleFormatted": "example <underline>formatted</underline> text",
+    "logo": "Travel"
+  },
+  "home": {
+    "title": "TRAVEL AGENCY",
+    "description": "Rejoignez-nous pour faciliter votre expérience de voyage : réservez vos billets, explorez les itinéraires et partez à l’aventure en toute",
+    "continueAs": "Continue as",
+    "join": "Join",
+    "Book": "Book tickets",
+    "SignIn": "Sign in",
+    "logoAltText": "Nimbleways logo",
+    "userIconAltText": "User icon"
+  },
+  "SignIn": {
+    "welcome": "Welcome back",
+    "loginInput": "Email adress",
+    "passInput": "Password",
+    "SignIn": "Sign in",
+    "back": "back",
+    "withGoogle": "Continue with Google",
+    "withApple": "Continue with Apple",
+    "noAccount": "Don't have an account?",
+    "backIconAltText": "Back icon",
+    "eyeIconAltText": "Eye icon"
+  },
+  "Signup": {
+    "tel": "téléphone",
+    "prenom": "Prenom",
+    "welcome": "Création de compte",
+    "loginInput": "Adresse e-mail",
+    "passInput": "Mot de passe",
+    "name": "Nom",
+    "SignIn": "S'inscrire",
+    "back": "Retour",
+    "withGoogle": "S'inscrire avec Google",
+    "withApple": "S'inscrire avec Apple",
+    "noAccount": "Vous avez déjà un compte ?",
+    "backIconAltText": "Icône de retour",
+    "eyeIconAltText": "Icône d'œil"
+  },
+  "mySpace": {
+    "title": "Reservation des tickets",
+    "popOver": {
+      "mode": "Dark mode",
+      "settings": "Settings",
+      "logout": "Logout",
+      "help": "Help"
+    },
+    "Purchases": {
+      "title": "Purchases",
+      "addPurchase": "Add a product",
+      "noPurchases": "Your purchases will appear here",
+      "brand": "Brand",
+      "price": "Price",
+      "Model": "Model",
+      "Store": "Store",
+      "invoice": "INVOICE AND MEDIA",
+      "addPhoto": "Add multiple photos",
+      "info": "Adding more high-resolution photos will help the platform stay consistent and evolve in terms of products imagery.",
+      "cancel": "Cancel",
+      "Confirm": "Confirm",
+      "size": "File size must no exceed 5Mb per image.",
+      "back": "Back",
+      "done": "Done",
+      "addPurchaseSuccess": "Your purchase has been added successfully"
+    },
+    "drawer": {
+      "title": "Browse or drag your images",
+      "description": "Browse your local device and browse the files your want to upload. You can also drag and drop mutilple files into this area"
+    },
+    "productDetails": {
+      "description": "Rating this product will help other Nimblers make the right choice in terms of gear.",
+      "title": "How would you rate this product?",
+      "Review": "Review"
+    }
+  }
+}

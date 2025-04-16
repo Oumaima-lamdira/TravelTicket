@@ -1,0 +1,32 @@
+{
+  "extends": [
+    "@tsconfig/next/tsconfig.json",
+    "@tsconfig/strictest/tsconfig.json"
+  ],
+  "compilerOptions": {
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "downlevelIteration": true,
+    "paths": {
+      "~*": [
+        "./*"
+      ]
+    },
+    "skipLibCheck": true,
+    "strictNullChecks": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "next-env.d.ts",
+    "env.d.ts",
+    "**/*.d.ts",
+    "**/.?*.js",
+    "**/*.json",
+    "**/*.jsx",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ]
+}

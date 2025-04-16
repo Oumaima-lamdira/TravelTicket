@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>🎟️ Ticket de Voyage</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f8f8;
+            text-align: center;
+            padding: 20px;
+        }
+        .ticket {
+            width: 550px;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+            margin: auto;
+            border: 2px solid #007bff;
+        }
+        .header {
+            text-align: center;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #007bff;
+            width: 100%;
+        }
+        .header img {
+            width: 100px;
+        }
+        .header h2 {
+            color: #007bff;
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        .details-table {
+            width: 100%;
+            margin-top: 15px;
+            border-collapse: collapse;
+        }
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+            font-size: 14px;
+            text-align: left;
+        }
+        .label {
+            font-weight: bold;
+            color: #333;
+        }
+        .value {
+            color: #007bff;
+            font-weight: bold;
+        }
+        .qr-code {
+            text-align: center;
+            margin-top: 15px;
+        }
+        .qr-code img {
+            width: 120px;
+            border: 5px solid #007bff;
+            border-radius: 5px;
+        }
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            margin-top: 15px;
+            color: gray;
+            border-top: 1px dashed #007bff;
+            padding-top: 10px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="ticket">
+    <div class="header">
+        <img src="logo.png" alt="Company Logo"/>
+        <h2>🎟️ Ticket de Voyage</h2>
+    </div>
+
+    <!-- ✅ Table pour bien aligner les informations en PDF -->
+    <table class="details-table">
+        <tr>
+            <td class="label">Numéro de Ticket :</td>
+            <td class="value" th:text="${reservation.numeroTicket}"></td>
+        </tr>
+        <tr>
+            <td class="label">Date :</td>
+            <td class="value" th:text="${reservation.horaire.date}"></td>
+        </tr>
+        <tr>
+            <td class="label">Départ :</td>
+            <td class="value" th:text="${reservation.horaire.trajet.villeDepart}"></td>
+        </tr>
+        <tr>
+            <td class="label">Arrivée :</td>
+            <td class="value" th:text="${reservation.horaire.trajet.villeArrivee}"></td>
+        </tr>
+        <tr>
+            <td class="label">Heure de départ :</td>
+            <td class="value" th:text="${reservation.horaire.heureDepart}"></td>
+        </tr>
+        <tr>
+            <td class="label">Nom :</td>
+            <td class="value" th:text="${reservation.nom}"></td>
+        </tr>
+        <tr>
+            <td class="label">Prénom :</td>
+            <td class="value" th:text="${reservation.prenom}"></td>
+        </tr>
+        <tr>
+            <td class="label">Téléphone :</td>
+            <td class="value" th:text="${reservation.telephone}"></td>
+        </tr>
+        <tr>
+            <td class="label">Prix :</td>
+            <td class="value" th:text="${reservation.horaire.prix} + ' MAD'"></td>
+        </tr>
+    </table>
+
+    <!-- ✅ QR Code -->
+    <div class="qr-code">
+        <h3>🔍 Vérification du ticket</h3>
+        <img th:src="'data:image/png;base64,' + ${qrCode}" alt="QR Code du ticket"/>
+    </div>
+
+    <div class="footer">
+        Merci d'avoir choisi notre service. Bon voyage ! 🚍✨
+    </div>
+</div>
+</body>
+</html>

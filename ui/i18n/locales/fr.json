@@ -1,0 +1,81 @@
+{
+  "common": {
+    "changeLanguage": "Changer la language",
+    "labelExample": "example de texte",
+    "labelExampleFormatted": "exemple de texte <underline>formaté</underline>",
+    "logo": "Travel"
+  },
+  "home": {
+    "title": "TRAVEL AGENCY",
+    "description": "Rejoignez-nous pour faciliter votre expérience de voyage : réservez vos billets, explorez les itinéraires et partez à l’aventure en toute tranquillité !",
+    "continueAs": "Continuer en tant que",
+    "join": "Rejoindre",
+    "SignIn": "Se connect",
+    "Book": "Book tickets",
+    "logoAltText": "Logo de Travel",
+    "userIconAltText": "Icône d'utilisateur"
+  },
+  "SignIn": {
+    "welcome": "Bienvenue",
+    "loginInput": "Adresse e-mail",
+    "passInput": "Mot de passe",
+    "SignIn": "Se connecter",
+    "back": "back",
+    "withGoogle": "Continuer avec Google",
+    "withApple": "Continuer avec Apple",
+    "noAccount": "Vous n'avez pas de compte ?",
+    "backIconAltText": "Icône de retour",
+    "eyeIconAltText": "Icône d'oeil"
+  },
+  "Signup": {
+    "tel": "téléphone",
+    "welcome": "Création de compte",
+    "loginInput": "Adresse e-mail",
+    "name": "Nom",
+    "prenom": "Prenom",
+    "passInput": "Mot de passe",
+    "SignIn": "S'inscrire",
+    "back": "Retour",
+    "withGoogle": "S'inscrire avec Google",
+    "withApple": "S'inscrire avec Apple",
+    "noAccount": "Vous avez déjà un compte ?",
+    "backIconAltText": "Icône de retour",
+    "eyeIconAltText": "Icône d'œil"
+  },
+  "mySpace": {
+    "title": "Réservation des tickets",
+    "popOver": {
+      "mode": "Mode sombre",
+      "settings": "Paramètres",
+      "logout": "Se déconnecter",
+      "help": "Aide"
+    },
+    "Purchases": {
+      "title": "Achats",
+      "addPurchase": "Ajouter un produit",
+      "noPurchases": "Vos achats apparaîtront ici",
+      "brand": "Marque",
+      "price": "Prix",
+      "Model": "Modèle",
+      "Store": "Magasin",
+      "invoice": "Facture",
+      "addPhoto": "Ajouter plusieures photos",
+      "info": "Ajouter plus de photos haute résolution aidera la plateforme à rester cohérente et à évoluer en termes d'images de produits.",
+      "cancel": "Annuler",
+      "Confirm": "Confirmer",
+      "size": "La taille du fichier ne doit pas dépasser 5 Mo par image.",
+      "back": "Retour",
+      "done": "Terminé",
+      "addPurchaseSuccess": "Votre produit a été ajouté avec succès"
+    },
+    "drawer": {
+      "title": "Explorez ou faites glisser vos images",
+      "description": "Parcourez votre appareil local et parcourez les fichiers que vous souhaitez télécharger. Vous pouvez également faire glisser et déposer plusieurs fichiers dans cette zone"
+    },
+    "productDetails": {
+      "description": "La notation de ce produit aidera les autres Nimblers à faire le bon choix en termes d'équipement.",
+      "title": "Comment noteriez-vous ce produit?",
+      "Review": "Avis"
+    }
+  }
+}
